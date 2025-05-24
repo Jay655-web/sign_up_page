@@ -55,19 +55,11 @@ body, html{
 
 .input1 {
     display: block;
-    width: 50%;
+    width: 45%;
     background-color: whitesmoke;
     margin: 5px auto;
-    /* margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: auto;
-    margin-right: auto; */
     line-height: 25px;
     padding: 4px 15px;
-    /* padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 4px;
-    padding-bottom: 4px; */
     border: 0px solid whitesmoke;
     border-radius: 20px;
 
@@ -84,15 +76,10 @@ body, html{
 .button {
     display: block;
     width: 100px;
-    padding: 5px 15px;
-    /* padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px; */
+    padding: 6px 15px;
     border: 0px solid grey;
     border-radius: 25px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     font-weight: bold;
     transition: 300ms;
 }
@@ -100,15 +87,10 @@ body, html{
 .button1 {
     display: block;
     width: 250px;
-    padding: 5px 15px;
-    /* padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px; */
+    padding: 6px 15px;
     border: 0px solid grey;
     border-radius: 25px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 4px auto;
     font-weight: bold;
     transition: 300ms;
 }
