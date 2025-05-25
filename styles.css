@@ -2,7 +2,7 @@ body, html{
     height: 100%;
 }
 
-.page {
+.main_page {
     background-image: url(images/login.jpg);
     height: auto;
     background-size: cover;
@@ -20,7 +20,7 @@ body, html{
 }
 
 
-.header {
+.main_page_header {
     display: block;
     width: 100%;
     margin-top: 100px;
@@ -42,7 +42,7 @@ body, html{
     font-weight: bolder;
 }
 
-.signin {
+.main_page_signin {
     display: block;
     width: 100%;
     margin-top: 5px;
@@ -128,3 +128,4 @@ body, html{
     background-color: #d79cda;
     color: white;
 }
+
