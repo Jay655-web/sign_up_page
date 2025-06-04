@@ -2,14 +2,14 @@ body, html{
     /* height: 100%; */
     margin: 0;
     height: 100vh;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .main_page {
     background-image: url(images/login.jpg);
-    /* height: auto; */
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,7 +71,7 @@ body, html{
     width: 200px;
     color: white;
     text-align: right;
-    margin: 20px 0 20px auto;
+    margin: 20px 20px 20px auto;
 
 }
   
@@ -79,15 +79,16 @@ body, html{
     display: block;
     width: 200px;
     text-align: left;
-    margin: 20px auto;
-    
+    margin: 20px auto 20px 20px;   
 }
 
 
 
 .input1 {
     display: block;
-    width: 35%;
+    width: 300px;
+    min-width: 200px;
+    max-width: 400px;
     background-color: whitesmoke;
     margin: 5px auto;
     line-height: 25px;
